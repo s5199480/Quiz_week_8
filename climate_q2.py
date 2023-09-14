@@ -1,5 +1,12 @@
 import matplotlib.pyplot as plt
 import pandas as pd
+import openpyxl
+
+
+if __name__ == "__main__":
+    cd = openpyxl.load_workbook("C:\Users\jessb\project_management\Quiz_week_8\climate.csv")
+    print(wb.sheetnames)
+
 
 years = []
 co2 = []
